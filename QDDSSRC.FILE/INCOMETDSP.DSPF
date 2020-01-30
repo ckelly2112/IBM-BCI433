@@ -1,0 +1,36 @@
+000001200128     A          R GETINCOME
+000002200129     A                                  1 72DATE
+000003200129     A                                  1  2USER
+000005200129     A                                  2 29'I N C O M E   T A X E S'
+000006200129     A                                  4 11'Income:'
+000007200129     A                                  6 11'Married?'
+000008200129     A                                  8 25'A L L O W A B L E   DEDUCTIONS'
+000009200128     A                                 10 11'Student Expense:'
+000010200128     A                                 10 45'Charitable Donations:'
+000016200129     A            INCOMEAMT      8Y 0B  4 19EDTCDE(2)
+000017200129     A  98                                  DSPATR(PC)
+000018200129     A  60                                  DSPATR(PR)
+000019200129     A            MARRIED        1X  B  6 20VALUES('Y' 'N')
+000020200129     A  60                                  DSPATR(PR)
+000021200129     A  97                                  DSPATR(PC)
+000022200129     A            EXPENSE        7Y 0B 10 29EDTCDE(2)
+000023200129     A            DONATIONS      7Y 0B 10 67EDTCDE(2)
+000024200129     A                                  6 23'Y/N'
+000025200129     A  98                              4 30'Zero Income Amount'
+000026200129     A  97                              6 30'Blank Marital Status'
+000027200129     A          R YOURTAX                   CF03(03 'Exit Program')
+000028200129     A                                      OVERLAY
+000029200129     A                                 12  7'Deductions Allowed:'
+000030200129     A                                 14  7'Adjusted Income Amount:'
+000031200129     A                                 16  7'Tax Rate:'
+000032200129     A                                 18  7'Taxes Owing:'
+000033200129     A                                 20  7'Your Taxes Are Due In'
+000034200130     A            DEDUCTIONS     6Y 0O 12 37
+000035200130     A            AINCOMEAMT     7Y 0O 14 36
+000036200130     A            TAXRATE        2Y 2O 16 41
+000037200130     A            TAXESOWING     6Y 0O 18 37
+000038200130     A            DAYSTOPAY      3Y 0O 20 29
+000039200129     A                                 20 33'Days'
+000040200129     A                                 22  7'F3 - Exit'
+000041200129     A                                 22 58'Christopher Kelly'
+000100      
