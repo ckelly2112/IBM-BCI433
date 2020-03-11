@@ -1,0 +1,13 @@
+000001200210     A          R RECORD1
+000002200210     A                                  2 26'Calculate Movie Tickets'
+000003200210     A                                  4  6'Number of adults:'
+000004200210     A                                  5  6'Number of children:'
+000006200210     A                                  3 60DATE
+000007200210     A                                  4 59TIME
+000008200210     A                                  5 58USER
+000009200210     A            ADULTS         3  0B  4 28EDTCDE(2)
+000010200210     A            CHILDREN       3  0B  5 28EDTCDE(2)
+000011200210     A          R RECORD2                   CF03(03 'Exit Program')
+000013200210     A                                  7  9'Amount Owing: '
+000014200210     A            AMOUNT         7S 2B  7 27EDTCDE(2)
+000100      

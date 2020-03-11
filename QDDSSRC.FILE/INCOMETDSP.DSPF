@@ -25,12 +25,13 @@
 000031200129     A                                 16  7'Tax Rate:'
 000032200129     A                                 18  7'Taxes Owing:'
 000033200129     A                                 20  7'Your Taxes Are Due In'
-000034200130     A            DEDUCTIONS     6Y 0O 12 37
-000035200130     A            AINCOMEAMT     7Y 0O 14 36
-000036200130     A            TAXRATE        2Y 2O 16 41
-000037200130     A            TAXESOWING     6Y 0O 18 37
-000038200130     A            DAYSTOPAY      3Y 0O 20 29
-000039200129     A                                 20 33'Days'
-000040200129     A                                 22  7'F3 - Exit'
-000041200129     A                                 22 58'Christopher Kelly'
+000034200204     A            DEDUCTIONS     6Y 0O 13 37EDTCDE(2)
+000035200204     A            AINCOMEAMT     7Y 0O 14 35EDTCDE(2)
+000036200205     A            TAXRATE        2Y 2O 16 41EDTCDE(A)
+000037200204     A            TAXESOWING     6Y 0O 18 37EDTCDE(2)
+000038200204     A            DAYSTOPAY      3Y 0O 20 29EDTCDE(2)
+000040200129     A                                 20 33'Days'
+000041200129     A                                 22  7'F3 - Exit'
+000042200129     A                                 22 58'Christopher Kelly'
+000044200204
 000100      

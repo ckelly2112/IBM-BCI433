@@ -1,0 +1,20 @@
+000001200302     A          R RECORD1
+000002200302     A                                  2 70DATE
+000003200302     A                                  3 69TIME
+000004200302     A                                  2 30'Payroll Program'
+000005200302     A                                  2  2USER
+000006200302     A                                  3  2'Christopher Kelly'
+000007200302     A                                  5 11'Rates:'
+000008200302     A                                  7 21'Day Rate:'
+000009200302     A                                  8 21'Afternoon Rate:'
+000010200302     A                                  9 21'Night Rate:'
+000011200302     A                                 11 11'Totals:'
+000012200302     A                                 13 21'Regular Pay:'
+000013200302     A                                 14 21'Overtime Pay:'
+000014200302     A                                 15 21'Company Payout:'
+000015200302     A            DAYRATE        5  2   7 32EDTCDE(1)
+000016200302     A            AFTNRATE       5  2   8 37EDTCDE(1)
+000017200302     A            NIGHTRATE      5  2   9 33EDTCDE(1)
+000018200302     A            TOTREGPAY      9Y 2O 13 34EDTCDE(1)
+000019200302     A            TOTOVPAY       9Y 2O 14 35EDTCDE(1)
+000020200302     A            TOTWKPAY       9Y 2O 15 37EDTCDE(1)

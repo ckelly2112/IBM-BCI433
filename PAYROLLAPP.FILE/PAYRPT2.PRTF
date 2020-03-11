@@ -1,0 +1,57 @@
+000001200220     A          R TITLE
+000002200218     A                                  1  5DATE
+000003200218     A                                  1 19TIME
+000004200218     A                                  1 46'Weekly Payroll Report'
+000005200218     A                                  1 90PAGNBR
+000006200220     A                                  1 84'Page:'
+000007200218     A                                  2  5'Christopher Kelly'
+000008200220     A                                  3  5' '
+000009200220     A          R COLHDG
+000010200220     A                                      SPACEB(1)
+000011200218     A                                     7'Employee'
+000012200218     A                                    20'Work'
+000100200218     A                                    30'Pay'
+000101200218     A                                    38'Hourly'
+000102200218     A                                    48'Hours'
+000103200220     A                                    60'Regular'
+000104200218     A                                    72'Overtime'
+000105200218     A                                    90'Total'
+000106200218     A                                     7'Number'
+000107200218     A                                      SPACEB(1)
+000108200218     A                                    20'Shift'
+000109200218     A                                    30'Grade'
+000110200218     A                                    38'Rate'
+000111200218     A                                    48'Worked'
+000112200220     A                                    60'Pay'
+000113200218     A                                    74'Pay'
+000114200218     A                                    91'Pay'
+000115200220     A          R EMPDETAIL                 SPACEB(2)
+000132200220     A            EMPNUM    R              4REFFLD(SHIFTWEEK/EMPNUM SENECAPAY/S-
+000133200220     A                                      HIFTWEEK)
+000134200220     A                                      EDTWRD('0   -   -   -')
+000136200220     A            WORKSHIFT R             20REFFLD(SHIFTWEEK/WORKSHIFT +
+000137200220     A                                      SENECAPAY/SHIFTWEEK)
+000138200220     A            PAYGRADE  R             31REFFLD(SHIFTWEEK/PAYGRADE +
+000139200220     A                                      SENECAPAY/SHIFTWEEK)
+000140200220     A            HOURLYRATE     5  2     38EDTCDE(1)
+000141200220     A            HRSWORKED R             49REFFLD(SHIFTWEEK/HRSWORKED +
+000142200220     A                                      SENECAPAY/SHIFTWEEK)
+000143200220     A                                      EDTCDE(2)
+000144200220     A            REGULARPAY     7  2     58EDTCDE(1)
+000145200220     A            OVERPAY        7  2     74EDTCDE(1)
+000146200220     A            WEEKLYPAY      7  2     90EDTCDE(1)
+000147200220     A          R TOTALS                    SPACEB(2)
+000148200220     A                                    41'Totals:'
+000149200220     A            TOTREGPAY      9  2     54EDTCDE(1 $)
+000151200305     A            TOTOVPAY       9  2     70EDTCDE(1 $)
+000153200220     A            TOTWKPAY       9  2     86EDTCDE(1 $)
+000154200305     A*%%RS+<record-sequences>
+000155200305     A*%%RS+ <sequence name="Report1">
+000156200305     A*%%RS+  <device type="printer" width="132" height="66" />
+000157200305     A*%%RS+  <record-write record-format="TITLE" />
+000158200305     A*%%RS+  <record-write record-format="COLHDG" />
+000159200305     A*%%RS+  <record-write record-format="EMPDETAIL" />
+000160200305     A*%%RS+  <record-write record-format="TOTALS" />
+000161200305     A*%%RS+  <record-write record-format="TOTALS" />
+000162200305     A*%%RS+ </sequence>
+000163200305     A*%%RS </record-sequences>

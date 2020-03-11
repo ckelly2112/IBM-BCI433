@@ -1,0 +1,30 @@
+000100200212     A*%%TS  SD  20200117  122549  KELLY    REL-V7R4M0  5770-WDS
+000101200212     A*%%EC
+000102200212     A                                      DSPSIZ(24 80 *DS3)
+000103200212     A          R RECORD1
+000104200212     A*%%TS  SD  20200117  122549  KELLY    REL-V7R4M0  5770-WDS
+000105200212     A                                      CF03(03 'Exit Program')
+000106200212     A                                      CF21(21 'QUSCMDLN')
+000107200212     A                                  1 38'Lab 4'
+000108200212     A                                  5  3'Please select one of the following-
+000109200212     A                                       options:'
+000110200212     A                                  9 14'3.  Maximum Invalid Signon Attempt-
+000111200212     A                                      s allowed'
+000112200212     A                                 11 14'5.  Operating system level'
+000113200212     A                                  7 14'1.  Signed on User''s Message Queu-
+000114200212     A                                      e'
+000115200212     A                                 15 17'Option:'
+000116200212     A            OPTION         2A  B 15 25
+000117200212     A  30                                  DSPATR(RI)
+000118200212     A  30                                  DSPATR(PC)
+000120200212     A                                 23  4'F3=Exit'
+000121200212     A                                 23 17'F21=Comand Line '
+000122200212     A                                  2  3'Christopher Kelly'
+000123200212     A                                 10 14'4.  Previous sign on by signed on -
+000124200212     A                                      user'
+000125200212     A                                  8 14'2.  Run Income Tax Application'
+000126200212     A            MSGTXT1       70A  O 18  6
+000127200212     A            MSGTXT2       70A  O 19  6
+000128200212     A                                  2 65TIME
+000129200212     A                                  1 65DATE
+000130200212     A                                  1  3USER
